@@ -1,2 +1,6 @@
 # IDE's
 /.vscode
+
+# Dist Files
+Makefile
+.qmake.stash
