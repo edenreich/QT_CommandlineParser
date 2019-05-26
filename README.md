@@ -4,4 +4,8 @@ Just an example for running QT Commandline Applications.
 
 ## Build Steps
 
-1) Run `qmake && make && make clean`
+Run `qmake && make && make clean`
+
+## Distribute
+
+After running the build step the executeable is located in bin directory. 
