@@ -5,6 +5,7 @@
 #include <QDebug>
 #include <QString>
 
+#include "commands/exit_code.h"
 #include "commands/command.h"
 #include "commands/todo1.h"
 #include "commands/todo2.h"
@@ -83,7 +84,7 @@ int main(int argc, char *argv[])
         return command->handle(options);
 
     fprintf(stderr, QCoreApplication::translate("main", "%s Command not found %s\n").toLatin1().data(), COLOR_CRITICAL, COLOR_RESET, "\n");
-    parser.showHelp(1);
+    parser.showHelp(ExitCode::NeedHelp);
 
     return app.exec();
 }
