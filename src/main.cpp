@@ -85,5 +85,5 @@ int main(int argc, char *argv[])
     fprintf(stderr, QCoreApplication::translate("main", "%s Command not found %s\n").toLatin1().data(), COLOR_CRITICAL, COLOR_RESET, "\n");
     parser.showHelp(1);
 
-    return 0;
+    return app.exec();
 }
