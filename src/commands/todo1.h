@@ -10,7 +10,7 @@ public:
     Todo1();
     ~Todo1() = default;
 
-    int handle(const QStringList & options) override;
+    ExitCode handle(const QStringList & options) override;
 };
 
 #endif // TODO1_H

@@ -7,10 +7,10 @@ Todo2::Todo2()
 
 }
 
-int Todo2::handle(const QStringList & options)
+ExitCode Todo2::handle(const QStringList & options)
 {
     qDebug() << "command todo2 was called";
     qDebug() << "Options: " << options;
 
-    return 0;
+    return ExitCode::Ok;
 }

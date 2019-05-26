@@ -1,6 +1,7 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
+#include "exit_code.h"
 #include <QStringList>
 
 class Command
@@ -10,7 +11,7 @@ public:
     Command() = default;
     virtual ~Command() = default;
 
-    virtual int handle(const QStringList & options) = 0;
+    virtual ExitCode handle(const QStringList & options) = 0;
 };
 
 #endif // COMMAND_H
