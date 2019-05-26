@@ -1,7 +1,7 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
-#include "exit_code.h"
+#include "../types/exit_code.h"
 #include <QStringList>
 
 class Command

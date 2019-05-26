@@ -1,7 +1,7 @@
 #ifndef TODO1_H
 #define TODO1_H
 
-#include "command.h"
+#include "../interfaces/command.h"
 #include <QStringList>
 
 class Todo1 : public Command

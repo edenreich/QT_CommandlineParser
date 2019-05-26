@@ -1,5 +1,4 @@
 HEADERS += \
-    $$PWD/command.h \
     $$PWD/todo1.h \
     $$PWD/todo2.h
 

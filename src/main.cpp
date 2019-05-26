@@ -5,13 +5,12 @@
 #include <QDebug>
 #include <QString>
 
-#include "commands/exit_code.h"
-#include "commands/command.h"
+#include "types/colors.h"
+#include "types/exit_code.h"
+
+#include "interfaces/command.h"
 #include "commands/todo1.h"
 #include "commands/todo2.h"
-
-#define COLOR_CRITICAL "\033[41m"
-#define COLOR_RESET "\033[0m"
 
 enum CommandType {
     CommandTypeTodo1,
